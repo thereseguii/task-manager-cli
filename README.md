@@ -3,7 +3,6 @@ A command-line interface (CLI) application for managing daily tasks. Built with 
 
 ---
 
-
 ## 🚀 Features
 - Add tasks with title, description, due date, priority, and status  
 - List tasks, sorted by due date or priority  
@@ -15,7 +14,7 @@ A command-line interface (CLI) application for managing daily tasks. Built with 
 - Built using Object-Oriented Programming principles  
 - No ORM — uses raw SQL queries  
 - Input validation and error handling
-
+  
 ---
 
 ## 🛠️ Technologies Used
@@ -65,7 +64,7 @@ Use the menu to interact with the app from the command line.
 - Code follows PEP 8 guidelines and includes comments/docstrings
 
 ### 🙋‍♀️ Author
-# Therese Segui
+Therese Segui
 🔗 github.com/thereseguii
 📧 therese.serranosegui@gmail.com
 
