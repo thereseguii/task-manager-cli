@@ -11,11 +11,7 @@ def main():
         choice = input("Select an option (1-3): ")
 
         if choice == "1":
-            title = input("Title: ")
-            desc = input("Description: ")
-            due = input("Due Date (YYYY-MM-DD): ")
-            priority = input("Priority (Low, Medium, High): ")
-            manager.add_task(title, desc, due, priority)
+            manager.add_task()  # ✅ This function handles inputs itself now
         elif choice == "2":
             manager.list_tasks()
         elif choice == "3":
