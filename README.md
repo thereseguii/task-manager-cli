@@ -1,34 +1,68 @@
-# 📝 Task Manager CLI App
+# ✅ Task Manager CLI App
 
-A command-line task management application built in Python, using MySQL for data persistence. This project showcases core Python programming skills, object-oriented design principles, and direct database interaction without the use of frameworks or ORMs.
+A command-line Task Management application built in Python with MySQL integration. It allows users to manage daily tasks with features like sorting, updating, and persistent storage. This project demonstrates the use of Python fundamentals, object-oriented programming (OOP), and raw SQL queries.
 
-## 💻 Features
+---
 
-- Add new tasks
-- List all tasks
-- Store data in MySQL database
-- Uses Object-Oriented Programming (OOP)
-- Follows clean code and PEP 8 standards
+## 🚀 Features
 
-## ⚙️ Tech Stack
+- Add tasks with title, description, due date, priority, and status
+- List tasks, sorted by due date or priority
+- Update task details
+- Mark tasks as completed
+- Delete tasks
+- Automatic timestamp on creation
+- MySQL-backed persistent storage
+- Built using Object-Oriented Programming principles
+- No ORM — uses raw SQL queries
+- Input validation and error handling
+
+---
+
+## 🛠️ Technologies Used
 
 - Python 3.x
 - MySQL
 - `mysql-connector-python`
-- No frameworks, no ORMs
+- Standard libraries: `datetime`, `os`, etc.
 
-## 📂 Project Structure
+---
 
-- `main.py` — CLI controller
-- `task.py` — Task data model
-- `db.py` — MySQL connector and queries
-- `task_manager.py` — Logic for managing tasks
+## 🧪 Setup Instructions
 
-## 🛠️ Setup Instructions
-
-1. Clone the repo:
+### 1. 📦 Install dependencies
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd task_manager_app
-```
+pip install -r requirements.txt
+
+### 2. 🛠️ Configure MySQL
+Ensure you have MySQL running locally. Then update your db.py file with your credentials:
+
+config = {
+    "host": "localhost",
+    "user": "your_username",
+    "password": "your_password",
+    "database": "task_manager"
+}
+Then run the following command to create the database and table:
+
+python db.py
+
+## 3. 🚀 Run the App
+
+python main.py
+
+Use the menu to interact with the app from the command line.
+
+### 🧹 Notes
+Do not commit the venv or __pycache__ directories (excluded via .gitignore)
+
+Database errors are handled with user-friendly messages
+
+Code follows PEP 8 guidelines and includes comments/docstrings
+
+
+## 🙋‍♀️ Author
+Therese Segui
+🔗 github.com/thereseguii
+📧 therese.serranosegui@gmail.com
