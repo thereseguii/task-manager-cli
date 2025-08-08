@@ -35,7 +35,7 @@ A command-line Task Management application built in Python with MySQL integratio
 ```bash
 pip install -r requirements.txt
 
-### 2. 🛠️ Configure MySQL
+2. 🛠️ Configure MySQL
 Ensure you have MySQL running locally. Then update your db.py file with your credentials:
 
 config = {
@@ -44,25 +44,5 @@ config = {
     "password": "your_password",
     "database": "task_manager"
 }
+
 Then run the following command to create the database and table:
-
-python db.py
-
-## 3. 🚀 Run the App
-
-python main.py
-
-Use the menu to interact with the app from the command line.
-
-### 🧹 Notes
-Do not commit the venv or __pycache__ directories (excluded via .gitignore)
-
-Database errors are handled with user-friendly messages
-
-Code follows PEP 8 guidelines and includes comments/docstrings
-
-
-## 🙋‍♀️ Author
-Therese Segui
-🔗 github.com/thereseguii
-📧 therese.serranosegui@gmail.com
