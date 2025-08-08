@@ -35,13 +35,15 @@ pip install -r requirements.txt
 ```
 ### 2. 🛠️ Configure MySQL
 
-Ensure you have MySQL running locally. Then update your `db.py` file:
+Ensure that MySQL is running locally on your machine. Then update your database credentials in the db.py file.
+
+Open db.py and replace the placeholders with your actual MySQL username and password:
 
 ```
 config = {
     "host": "localhost",
-    "user": "your_username",
-    "password": "your_password",
+    "user": "your_username",       # Replace this
+    "password": "your_password",   # Replace this
     "database": "task_manager"
 }
 ```
