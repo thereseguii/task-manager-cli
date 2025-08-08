@@ -65,6 +65,6 @@ Use the menu to interact with the app from the command line.
 - Code follows PEP 8 guidelines and includes comments/docstrings
 
 ### 🙋‍♀️ Author
-Therese Segui
+## Therese Segui
 🔗 github.com/thereseguii
 📧 therese.serranosegui@gmail.com
