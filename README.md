@@ -53,6 +53,8 @@ python db.py
 ```
 
 ### 3. 🚀 Run the App
+
+To launch the task manager, run:
 ```
 python main.py
 ```
