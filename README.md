@@ -1,6 +1,6 @@
 # 📝 Task Manager CLI App
 
-A command-line task management application built in Python, using MySQL for data persistence. Developed as part of a technical exam.
+A command-line task management application built in Python, using MySQL for data persistence. This project showcases core Python programming skills, object-oriented design principles, and direct database interaction without the use of frameworks or ORMs.
 
 ## 💻 Features
 
