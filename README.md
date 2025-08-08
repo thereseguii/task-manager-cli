@@ -28,7 +28,7 @@ A command-line interface (CLI) application for managing daily tasks. Built with 
 
 ## 📦 Setup Instructions
 
-### 1. Install dependencies
+### 1. 🧪 Install dependencies
 
 ```
 pip install -r requirements.txt
