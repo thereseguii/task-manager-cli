@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 ### 2. 🛠️ Configure MySQL
 
-nsure you have MySQL running locally. Then update your `db.py` file:
+Ensure you have MySQL running locally. Then update your `db.py` file:
 
 ```
 config = {
